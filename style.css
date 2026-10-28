@@ -1,0 +1,25 @@
+html {
+  background-image: url(images/lib_book.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-attachment: fixed;
+  background-size: auto;
+  font-family: "futura", "Franklin Gothic Medium", "Arial Narrow";
+  color: red;
+}
+img {
+  animation: left-to-right 10s forwards infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: scale(3);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
