@@ -1,0 +1,87 @@
+body {
+  font-family: futura;
+  margin: 0px;
+  padding: 0%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+
+  gap: 2em;
+  grid-area: gd;
+  place-content: center;
+}
+.grid div {
+  border-style: solid;
+  width: 15vw;
+  height: 15vw;
+  border-width: 4px;
+  border-radius: 50%;
+  padding: 1em;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  border-style: solid;
+  padding: 1vw;
+  border-width: 4px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 5vw;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+a:link {
+  color: black;
+  font-size: 2em;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+
+/*.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.ten{
+    grid-area: ten;
+}
+.eleven{
+    grid-area: eleven;
+}
+.twelve{
+    grid-area: twelve;
+}*/
